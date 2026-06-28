@@ -9,6 +9,9 @@ saving the job postings you find, getting AI feedback on fit, tailoring your CV 
 tracking each application through to an offer. Focused on Wrocław and remote/hybrid roles in
 Poland, but works anywhere.
 
+<img width="657" height="191" alt="image" src="https://github.com/user-attachments/assets/9a78f6c9-a99b-4bf2-92ee-f7fd4da1ceba" />
+
+
 Everything runs locally. Data is stored in a SQLite file. The only things sent over the network
 are the portal scrapes (harvest), the optional Google searches (discover), and the AI calls to
 DeepSeek when you ask for fit analysis or CV tailoring.
