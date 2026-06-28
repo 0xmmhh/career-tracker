@@ -80,7 +80,7 @@ cp .env.example .env
 # edit .env and set DEEPSEEK_API_KEY=sk-...
 ```
 
-The AI fit/tailor features need `DEEPSEEK_API_KEY`. Everything else works without any keys.
+The AI fit/tailor features need an API, I am currently using DeepSeek - `DEEPSEEK_API_KEY`. Everything else works without any keys.
 
 > Deploying to a server? See **[DEPLOY.md](DEPLOY.md)**.
 
