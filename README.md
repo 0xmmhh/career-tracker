@@ -349,7 +349,7 @@ contact, fit_analysis, applied_at, notes, created_at`
   Add those manually with `[n]`, or use discovery with a Google key.
 - **Harvest uses real browser memory** — it runs up to 4 concurrent Chromium instances, ~500 MB
   RAM during the scrape. Normal and temporary.
-- **AI quality depends on your base profiles.** Keep `data/base-cv-en.txt` and
+- **AI quality depends on your base profiles.** Keep in plain text `data/base-cv-en.txt` and
   `data/base-cv-pl.txt` complete and current for good fit analysis and tailoring.
 
 ---
