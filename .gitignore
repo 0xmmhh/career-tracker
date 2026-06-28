@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Local data: SQLite database, CV profiles (never commit personal data)
+data/
+data/*.db*
+
+# Secrets
+.env
+
+# Build output
+dist/
+
+# Test / coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

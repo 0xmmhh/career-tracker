@@ -1,0 +1,48 @@
+{
+  "name": "career-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local terminal app (TUI) for organizing a job search — track companies and applications, get AI fit analysis and CV tailoring, all stored locally in SQLite.",
+  "keywords": [
+    "job-search",
+    "cli",
+    "tui",
+    "ink",
+    "sqlite",
+    "typescript",
+    "deepseek"
+  ],
+  "license": "MIT",
+  "author": "0xmmhh",
+  "homepage": "https://github.com/0xmmhh/career-tracker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xmmhh/career-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xmmhh/career-tracker/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "harvest": "tsx src/cli.ts harvest",
+    "discover": "tsx src/cli.ts discover",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "db": "sqlite3 data/tracker.db"
+  },
+  "dependencies": {
+    "ink": "^6.0.0",
+    "playwright": "^1.61.0",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
